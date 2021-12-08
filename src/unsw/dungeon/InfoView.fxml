@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('file:../examples/maze.png');" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="78.0" layoutY="338.0" text="Invincibilty Potion: Invulnerbale for 30 moves (Can kill enmy if collide) " />
+      <Label layoutX="78.0" layoutY="370.0" text="Health Potion: Gain extra life" />
+      <Label layoutX="76.0" layoutY="312.0" text="Sword: Kill enemies around player (5 charges)" />
+      <Label layoutX="77.0" layoutY="284.0" text="Key: Open specific door" />
+      <Label layoutX="75.0" layoutY="192.0" text="Portal: Teleports player to corresponding portal" />
+      <Label layoutX="74.0" layoutY="30.0" text="Enemy: Moves 1 step toward player every turn" />
+      <Label layoutX="74.0" layoutY="63.0" text="Hound: moves 2 steps toward player every turn" />
+      <Label layoutX="74.0" layoutY="93.0" text="Gnome: Moves 1 step randomly each turn  " />
+      <Label layoutX="77.0" layoutY="258.0" text="Treasure: Collect it to reach goals!" />
+      <Label layoutX="76.0" layoutY="161.0" text="Switch: Swiched on if a boulder on top of it " />
+      <Label layoutX="77.0" layoutY="226.0" text="Exit: Go to exit to clear the level" />
+      <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="26.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/deep_elf_master_archer.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="129.0" text="Boulder: Push boulder to Switch to complete goal" />
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/hound.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/gnome.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/boulder.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/pressure_plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/portal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/gold_pile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/key.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/greatsword_1_new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/brilliant_blue_new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="26.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/bubbly.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="532.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="28.0" prefWidth="57.0" text="Back" />
+   </children>
+</Pane>

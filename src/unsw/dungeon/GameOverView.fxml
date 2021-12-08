@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('file:../examples/maze.png');" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="170.0" prefHeight="61.0" prefWidth="283.0" text="GAME OVER">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="menuBtn" layoutX="14.0" layoutY="338.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="36.0" prefWidth="145.0" text="Main Menu" />
+      <Button fx:id="retry" layoutX="228.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleRetry" prefHeight="36.0" prefWidth="145.0" text="Retry" />
+      <Button fx:id="exitGame" layoutX="441.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="36.0" prefWidth="145.0" text="Exit" />
+   </children>
+</Pane>
